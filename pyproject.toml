@@ -9,6 +9,7 @@ dependencies = [
     "polars",
     "ipykernel",
     "ipywidgets",
+    "marimo>=0.16.5",
 ]
 
 [project.scripts]
