@@ -10,11 +10,16 @@ dependencies = [
     "ipykernel",
     "ipywidgets",
     "marimo>=0.16.5",
+    "mcp[cli]>=1.16.0",
+    "dspy>=3.0.3",
+    "python-dotenv>=1.1.1",
+    "pandas>=2.3.3",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
 ]
 
 [project.scripts]
@@ -28,4 +33,5 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "pytest>=8.4.2",
+    "pytest-asyncio>=1.2.0",
 ]
